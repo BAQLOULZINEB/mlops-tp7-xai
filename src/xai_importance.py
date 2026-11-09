@@ -1,3 +1,11 @@
+"""TP7 - src/xai_importance.py
+
+ROLE      : Explicabilite globale : importance MDI (gratuite, train) vs importance par permutation (perte de F1 sur le test).
+ENTREE    : m, Xte, yte
+SORTIE    : reports/importance.json + reports/permutation.png
+A RETENIR : MDI favorise les variables continues ; la permutation mesure la vraie dependance sur des donnees nouvelles.
+"""
+
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt

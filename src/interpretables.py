@@ -1,3 +1,11 @@
+"""TP7 - src/interpretables.py
+
+ROLE      : Compromis performance / lisibilite : logistique (brute et log10 montant) et arbres de profondeur 2, 3, 6, illimitee.
+ENTREE    : Xtr, ytr, Xte, yte
+SORTIE    : F1 et fraudes detectees par modele + regles de l'arbre de profondeur 3 + reports/interpretables.json
+A RETENIR : La logistique log10 (113 fraudes) fait presque aussi bien que la foret (114) en etant lisible.
+"""
+
 import json
 import numpy as np
 from sklearn.linear_model import LogisticRegression

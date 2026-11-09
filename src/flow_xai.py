@@ -1,3 +1,11 @@
+"""TP7 - src/flow_xai.py
+
+ROLE      : Bonus C2 : le processus XAI en workflow Prefect (charger, predire, SHAP, LIME, controler, journaliser).
+ENTREE    : registre MLflow + donnees
+SORTIE    : flow explication-fraude + run MLflow xai-flow-prefect
+A RETENIR : Si controler echoue (variable non autorisee), rien n'est archive.
+"""
+
 import json
 from pathlib import Path
 import matplotlib

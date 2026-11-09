@@ -1,3 +1,11 @@
+"""TP7 - src/xai_commun.py
+
+ROLE      : Module partage : charge le modele PAR SON ALIAS fraude@production, refait le decoupage du TP2 et definit le cas de Mme Benali.
+ENTREE    : registre MLflow du TP2 + data/transactions.csv
+SORTIE    : m, X, Xtr, Xte, ytr, yte, VERSION, CAS (importes par tous les scripts)
+A RETENIR : Expliquer le modele SERVI, sur le MEME jeu de test que celui ou il a ete evalue.
+"""
+
 import mlflow
 import mlflow.sklearn
 import pandas as pd

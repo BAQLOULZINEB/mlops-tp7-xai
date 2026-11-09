@@ -1,3 +1,11 @@
+"""TP7 - src/journaliser.py
+
+ROLE      : Archive toutes les explications dans MLflow, reliees a la version du modele et a l'empreinte des donnees.
+ENTREE    : reports/*.png|html|json, VERSION
+SORTIE    : run xai-fraude-v1 + tag explications_run sur la version du modele
+A RETENIR : Une explication n'est auditable que si on sait QUEL modele et QUELLES donnees elle concerne.
+"""
+
 import hashlib
 from pathlib import Path
 import mlflow

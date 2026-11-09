@@ -1,3 +1,11 @@
+"""TP7 - src/flaml_xai.py
+
+ROLE      : Bonus C1 : le modele AutoML (FLAML 60 s) doit lui aussi etre explique ; compare ses importances a la foret.
+ENTREE    : Xtr, ytr, Xte, yte + reports/importance.json
+SORTIE    : F1 FLAML vs foret + importances + SHAP moyen
+A RETENIR : Meme xgboost F1 0.8582 qu'au TP4/TP5, memes variables dans le meme ordre.
+"""
+
 import json
 import numpy as np
 import pandas as pd

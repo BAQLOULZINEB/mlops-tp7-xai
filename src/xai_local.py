@@ -1,3 +1,11 @@
+"""TP7 - src/xai_local.py
+
+ROLE      : SHAP local : pourquoi Mme Benali (et la transaction la plus suspecte) ont ete bloquees.
+ENTREE    : m, CAS, Xte
+SORTIE    : contributions par variable + waterfall shap_benali.png / shap_test_668.png
+A RETENIR : Efficacite : valeur de base + somme des contributions = prediction, exactement.
+"""
+
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt

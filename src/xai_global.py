@@ -1,3 +1,11 @@
+"""TP7 - src/xai_global.py
+
+ROLE      : SHAP global : contribution de chaque variable pour 400 transactions, beeswarm et effet du montant.
+ENTREE    : m, 400 transactions de test
+SORTIE    : shap_importance.json, shap_global.png, shap_montant.png
+A RETENIR : Le beeswarm montre le SENS de l'effet (couleur = valeur, position = contribution).
+"""
+
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt

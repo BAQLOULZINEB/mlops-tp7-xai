@@ -1,3 +1,11 @@
+"""TP7 - src/publier_card.py
+
+ROLE      : Attache MODEL_CARD.md au run des explications et a la version du modele (description + tag).
+ENTREE    : MODEL_CARD.md + reports/run_xai.txt
+SORTIE    : description et tag model_card sur fraude v1
+A RETENIR : La documentation vit avec le modele, dans le registre.
+"""
+
 from pathlib import Path
 import mlflow
 from mlflow import MlflowClient

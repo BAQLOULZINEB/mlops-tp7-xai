@@ -1,3 +1,11 @@
+"""TP7 - src/verifier_modele.py
+
+ROLE      : Verifie que le modele charge redonne les scores enregistres au TP2.
+ENTREE    : xai_commun + le run d'origine
+SORTIE    : F1 0.8669, precision, rappel, AUC, matrice, P(fraude) de Mme Benali = 0.924
+A RETENIR : On n'explique pas un modele avant d'avoir prouve que c'est le bon.
+"""
+
 import mlflow
 from sklearn.metrics import (f1_score, precision_score, recall_score,
                              roc_auc_score, confusion_matrix)

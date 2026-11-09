@@ -1,3 +1,11 @@
+"""TP7 - src/xai_lime.py
+
+ROLE      : LIME : explique la meme decision avec un modele lineaire local, et teste sa stabilite sur 5 graines.
+ENTREE    : m.predict_proba seulement (agnostique), Xtr pour les quartiles
+SORTIE    : lime_benali.html/png + tableau des poids par graine
+A RETENIR : LIME depend du hasard : ne communiquer que ce qui est stable.
+"""
+
 from lime.lime_tabular import LimeTabularExplainer
 from xai_commun import m, X, Xtr, CAS
 
