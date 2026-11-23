@@ -2,3 +2,6 @@
 __pycache__/
 data/
 .vscode/
+
+# rapports de TP : remis par e-mail, pas sur GitHub
+rapport_tp*.md
